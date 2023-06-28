@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Surah Player Ver 1.2.4
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      {{ currentTrack.title || 'Click play to start' }}
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button (click)="togglePlayback()">
+        <ion-icon *ngIf="isPlaying" name="pause"></ion-icon>
+        <ion-icon *ngIf="!isPlaying" name="play"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <p>All audio content is copyrighted by <a href="https://qurancentral.com/">qurancentral.com</a></p><br>
+  <p>Coded and Design by Muhammad Aiman Iskandar bin Azman</p>
+</ion-footer>

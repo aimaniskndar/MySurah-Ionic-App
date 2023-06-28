@@ -1,0 +1,7 @@
+{
+  "name": "mySurah",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

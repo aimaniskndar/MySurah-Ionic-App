@@ -1,0 +1,47 @@
+ion-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh; /* Set the height to fill the viewport */
+  background-color: #333; /* Set the background color to a dark color */
+  color: #fff; /* Set the text color to white */
+}
+
+ion-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Change the flex direction to stack elements vertically */
+  align-items: center;
+  justify-content: center;
+}
+
+ion-card-header {
+  font-size: 2rem;
+  color: #fff;
+}
+
+ion-button {
+  font-size: 2rem; /* Increase the font size to make the button bigger */
+  width: 200px; /* Set a specific width for the button */
+  height: 150px; /* Set a specific height for the button */
+  margin-top: 20px; /* Add some top margin to create space between the button and the audio element */
+}
+
+ion-footer {
+  background-color: #444; /* Set a darker background color for the footer */
+  padding: 10px;
+  text-align: center;
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+
+    a {
+      text-decoration: none;
+      color: #fff; /* Set the link color to white */
+      font-weight: bold;
+    }
+  }
+}
