@@ -1,6 +1,6 @@
 # MySurah - Surah Player
 
-MySurah is a mobile app built with the Ionic framework that allows users to listen to and recite Surahs from the Holy Quran. It provides a user-friendly interface for accessing and playing Surahs on mobile devices.
+MySurah is a mobile app built with the Ionic framework based on Angular that allows users to listen to and recite Surahs from the Holy Quran. It provides a user-friendly interface for accessing and playing Surahs on mobile devices.
 
 <!-- ![MySurah App Screenshot](screenshot.png) -->
 
@@ -22,7 +22,7 @@ MySurah is a mobile app built with the Ionic framework that allows users to list
 1. Clone the repository or download the source code:
 
    ```
-   git clone https://github.com/your-username/MySurah.git
+   git clone https://github.com/aimaniskndar/MySurah.git
    ```
 
 2. Navigate to the project directory:
@@ -106,7 +106,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Support
 
-If you have any questions or need assistance with the app, please reach out to us at [aimanovation@gmail.com](mailto:aimanovation@gmail.com).
+If you have any questions or need assistance with the app, please reach out to us at [contact.aiman.azman@gmail.com](mailto:contact.aiman.azman@gmail.com).
 
 ---
 
